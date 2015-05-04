@@ -1,4 +1,4 @@
-Chef::Log.info("******Checkout Flask Application.******")
+Chef::Log.info("******Git - Checkout Application.******")
 
 git "/home/search" do
   repository "git://github.com/joedanz/flask-elasticsearch.git"

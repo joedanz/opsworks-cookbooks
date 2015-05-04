@@ -1,6 +1,6 @@
 Chef::Log.info("******Installing uWSGI.******")
 
-execute "Install Flask" do
+execute "Install uwsgi" do
     command "pip install uwsgi"
     action :run
 end

@@ -1,6 +1,3 @@
 [submodule "elasticsearch"]
 	path = elasticsearch
 	url = https://github.com/sportngin-cookbooks/elasticsearch
-[submodule "java"]
-	path = java
-	url = https://github.com/cookbooks/java

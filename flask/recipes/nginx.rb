@@ -10,7 +10,7 @@ execute "Install nginx" do
     action :run
 end
 
-Chef::Log.info("******Start nginx.******")
+Chef::Log.info("******Starting nginx.******")
 
 execute "Install nginx" do
     command "sudo /etc/init.d/nginx start"
